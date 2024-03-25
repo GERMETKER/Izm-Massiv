@@ -12,6 +12,35 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
+    /*
+    int row = 3, col = 3;
+    std::cout << "Введите кол-во строк\n";
+    std::cin >> row;
+    int** pArr = new int* [row];
+    for (int i = 0; i < row; i++)
+    {
+        std::cout << "Введите кол-во столбиков в строке под номером:" << i+1 << "\n";
+        std::cin >> col;
+        pArr[i] = new int[col];
+        for (int j = 0; j < col; j++)
+        {
+            std::cin >> pArr[i][j];
+        }
+    }
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            std::cout << pArr[i][j] << " ";
+        }
+        std::cout << "\n";
+    }
+    for (int i = 0; i < row; i++)
+    {
+        delete[]pArr[i];
+    }
+    delete[]pArr;
+    */
     int size;
     int* arr;
     int element;
